@@ -7,7 +7,7 @@ include './styles.php';
 <main>
 
     <section>
-        <h1>Palmiste</h1>
+        <h1>Mes produits</h1>
 
         <div>
             <div>
@@ -18,18 +18,7 @@ include './styles.php';
                     <?php echo $cat0['titre'] . ' - ' . $cat0['prix'] ; ?>
 
             </div>
-            <div>
-                <a href="">
-                    <img src="./medias/affiches/angora.jpg" alt="">
-                </a>
-                <p class="legende">Angora - $ 2000</p>
-            </div>
-            <div>
-                <a href="">
-                    <img src="./medias/affiches/british.jpeg" alt="">
-                </a>
-                <p class="legende">British - $ 500</p>
-            </div>
+            
             <div>
                 <a href="">
                     <img src="./medias/affiches/chaussure.jpeg" alt="">
@@ -40,7 +29,7 @@ include './styles.php';
                 <a href="">
                     <img src="./medias/affiches/barbec.jpeg" alt="">
                 </a>
-                <p class="legende">rechaud barbecue  - $ 7999.99</p>
+                <p class="legende">rechaud barbecue et autre - $ 7999.99</p>
             </div>
             <div>
                 <a href="">
@@ -52,7 +41,7 @@ include './styles.php';
                 <a href="">
                     <img src="./medias/affiches/boursepers.jpeg" alt="">
                 </a>
-                <p class="legende">porte feuille, design - $ 30</p>
+                <p class="legende">bourse + design - $ 30</p>
             </div>
             <div>
                 <a href="">
@@ -70,13 +59,13 @@ include './styles.php';
                 <a href="">
                     <img src="./medias/affiches/gourde.jpeg" alt="">
                 </a>
-                <p class="legende">gourde - $ 79.99</p>
+                <p class="legende">gourde personnalsee - $ 79.99</p>
             </div>
             <div>
                 <a href="">
                     <img src="./medias/affiches/jbl.jpeg" alt="">
                 </a>
-                <p class="legende">speker JBL- $ 159.99</p>
+                <p class="legende">speaker JBL- $ 159.99</p>
             </div>
         </div>
     </section>

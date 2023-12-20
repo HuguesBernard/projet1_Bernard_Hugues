@@ -15,7 +15,7 @@ body {
   min-width: 940px; /* Modification de la largeur minimale */
   margin: 0 auto;
   font-family: "Arial", sans-serif; /* Changement de la police */
-  background-color: #3a393a; /* Changement de couleur de fond */
+  background-color: #1eba1e; /* Changement de couleur de fond */
   color: #dcdcdc; /* Changement de couleur de texte */
   cursor: url(../medias/affiches/jbl.jpeg), auto; /* Modification de l'URL du curseur */
 }
@@ -130,7 +130,7 @@ div.ba h2 {
   display: grid; /* Modification pour le formatage en grille */
   grid-template-columns: repeat(7, 1fr); /* Sept colonnes égales */
   gap: 18px; /* Espacement entre les éléments */
-  background-color: #4a494a; /* Changement de couleur de fond */
+  background-color: #1bd048; /* Changement de couleur de fond */
 }
 
 #horaires .jour {
@@ -152,7 +152,7 @@ div.ba h2 {
   margin-left: 10px; /* Ajustements de marge */
   padding: 0 6px; /* Ajustements de padding */
   line-height: 26px; /* Ajustement de la hauteur de ligne */
-  color: #696969; /* Couleur gris foncé */
+  color: #3a14b5; /* Couleur gris foncé */
   background-color: #00bfff; /* Couleur bleu clair */
 }
 
