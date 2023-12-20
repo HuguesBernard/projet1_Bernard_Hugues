@@ -1,0 +1,163 @@
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  font-size: 18px; /* Modification de la taille de police */
+}
+
+body {
+  width: 85%; /* Modification de la largeur */
+  min-width: 940px; /* Modification de la largeur minimale */
+  margin: 0 auto;
+  font-family: "Arial", sans-serif; /* Changement de la police */
+  background-color: #3a393a; /* Changement de couleur de fond */
+  color: #dcdcdc; /* Changement de couleur de texte */
+  cursor: url(../medias/affiches/jbl.jpeg), auto; /* Modification de l'URL du curseur */
+}
+
+body:active {
+  cursor: url(../medias/affiches/jbl.jpeg), auto; /* Modification de l'URL du curseur */
+}
+
+a {
+  text-decoration: underline; /* Sous-ligne pour les liens */
+}
+
+ul {
+  list-style: square; /* Style de la liste */
+}
+
+header {
+  display: block; /* Modification pour le formatage du bloc */
+}
+
+#logo {
+  padding: 0 25px; /* Modification du padding */
+  line-height: 72px; /* Modification de la hauteur de ligne */
+  font-size: 52px; /* Augmentation de la taille de la police */
+  font-family: "Georgia", serif; /* Changement de la police */
+  color: #ffa500; /* Couleur orange pour le logo */
+}
+
+header ul {
+  display: block; /* Modification pour le formatage du bloc */
+}
+
+header ul a {
+  margin: 22px 0 0 32px; /* Ajustements de marge */
+  color: #00ffff; /* Couleur cyan pour les liens */
+  display: block; /* Modification pour le formatage du bloc */
+}
+
+main > section > h1 {
+  margin: 45px 0; /* Augmentation de la marge */
+  text-align: left; /* Alignement à gauche */
+  font-size: 52px; /* Augmentation de la taille de la police */
+  color: #ff4500; /* Couleur orange-rouge */
+}
+
+main > section > div {
+  display: grid; /* Modification pour le formatage en grille */
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+  gap: 20px; /* Espacement entre les éléments */
+}
+
+section > div > div {
+  padding: 0 22px 42px 22px; /* Ajustements de padding */
+}
+
+section > div img {
+  min-width: 220px; /* Augmentation de la largeur minimale */
+  max-width: 320px; /* Augmentation de la largeur maximale */
+  padding: 0 22px; /* Ajustements de padding */
+}
+
+p.legende {
+  margin: 7px 0; /* Augmentation de la marge */
+  text-align: left; /* Alignement à gauche */
+}
+
+div.info {
+  width: 480px; /* Augmentation de la largeur */
+}
+
+div.info p {
+  margin: 0 0 18px 0; /* Ajustements de marge */
+  line-height: 1.6; /* Ajustement de la hauteur de ligne */
+}
+
+div.info li {
+  line-height: 1.6; /* Ajustement de la hauteur de ligne */
+}
+
+div.info li span {
+  display: block; /* Modification pour le formatage en bloc */
+  padding-top: 12px; /* Ajustements de padding */
+}
+
+div.info li span:first-of-type {
+  width: 120px; /* Augmentation de la largeur */
+  text-align: center; /* Alignement au centre */
+}
+
+div.info li span:last-of-type {
+  padding-left: 12px; /* Ajustements de padding */
+  vertical-align: middle; /* Alignement vertical */
+}
+
+div.ba {
+  width: 420px; /* Réduction de la largeur */
+}
+
+div.ba video {
+  margin-bottom: 35px; /* Augmentation de la marge */
+}
+
+div.ba h2 {
+  margin-bottom: 22px; /* Ajustements de marge */
+  text-align: left; /* Alignement à gauche */
+  font-size: 40px; /* Réduction de la taille de la police */
+  font-weight: bold; /* Mise en gras */
+  color: #dc143c; /* Couleur rouge foncé */
+}
+
+#horaires {
+  display: grid; /* Modification pour le formatage en grille */
+  grid-template-columns: repeat(7, 1fr); /* Sept colonnes égales */
+  gap: 18px; /* Espacement entre les éléments */
+  background-color: #4a494a; /* Changement de couleur de fond */
+}
+
+#horaires .jour {
+  box-sizing: border-box;
+  padding: 12px 22px 12px 12px; /* Ajustements de padding */
+  line-height: 26px; /* Ajustement de la hauteur de ligne */
+  width: 150px; /* Augmentation de la largeur */
+  color: #ffd700; /* Couleur or */
+}
+
+#horaires .heures {
+  display: block; /* Modification pour le formatage du bloc */
+  box-sizing: border-box;
+  padding: 12px 12px 12px 0; /* Ajustements de padding */
+  width: calc(100% - 150px); /* Calcul de la largeur */
+}
+
+#horaires .heures div {
+  margin-left: 10px; /* Ajustements de marge */
+  padding: 0 6px; /* Ajustements de padding */
+  line-height: 26px; /* Ajustement de la hauteur de ligne */
+  color: #696969; /* Couleur gris foncé */
+  background-color: #00bfff; /* Couleur bleu clair */
+}
+
+#erreur p {
+  margin-top: 12px; /* Ajustements de marge */
+  font-style: italic; /* Style d'écriture italique */
+  color: #8b4513; /* Couleur brun */
+}
